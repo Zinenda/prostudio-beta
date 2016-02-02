@@ -1,0 +1,30 @@
+# PROstudio copyright 2016
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+#                                                       #
+#                Design And Developed by IZTech         #
+#                     ManingTeh                         #
+#                Dev: Ivo Zinenda                       #
+#               Email: izinenda@outlook.com             #
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+name: PROstudio
+title: 
+description: Photograph like a PRO
+keywords: "Fotografias, Galaria, Serviços, Contactos, Quem Somos"
+email:
+url:
+facebook:
+youtube:
+
+# dev intel
+author:
+    name: Ivo Zinenda
+    email: izinenda@outlook.com
+    google: http://plus.google.com/IvoZinenda
+    
+markdown: kramdown
+
+# directories
+img_dir: /assets/img
+css_dir: /assets/css
+js_dir: /assets/js

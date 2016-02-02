@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+$primary-color: #2c3e50 !default;
+$primary-color-light: lighten($primary-color, 15%) !default;
+$primary-color-dark: darken($primary-color, 15%) !default;
+$link-color: color("light-blue", "darken-1") !default;
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main, section, article {
+    flex: 1 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: $link-color;
+    &:hover {
+       text-decoration: none;
+       color: #d35400;
+    }
+}
+
+img.center {
+    margin: 0 auto;
+}
+
+.inline-list {
+    display: inline-flex;
+}
+
+.icon-block {
+    display: block;
+}
+.icon-block i {
+    font-style: inherent
+}
+
+@import 
+    "../../_bower_components/materialize/sass/materialize",
+    "../animated",
+    "../../_bower_components/font-awesome/scss/font-awesome"
+;

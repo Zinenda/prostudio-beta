@@ -63,6 +63,13 @@ img.center {
     font-style: inherent
 }
 
+#galeria {
+    background: url('../img/galery/pexels-photo.jpg');
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+}
+
 @import 
     "../../bower_components/materialize/sass/materialize",
     "../animated",

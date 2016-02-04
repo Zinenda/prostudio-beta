@@ -47,6 +47,12 @@ img.center {
 .icon-block i {
   font-style: inherent; }
 
+#galeria {
+  background: url("../img/galery/pexels-photo.jpg");
+  background-size: cover;
+  width: 100%;
+  min-height: 100%; }
+
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important; }
 

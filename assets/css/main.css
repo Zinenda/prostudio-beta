@@ -11,12 +11,21 @@ main, section, article {
   flex: 1 0 auto; }
 
 h1,
+h2 {
+  text-align: center;
+  font-style: oblique;
+  color: #fff; }
+
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   text-transform: uppercase; }
+
+nav.nav-wrapper {
+  background: transparent; }
 
 a {
   text-decoration: none;
@@ -32,7 +41,8 @@ img.center {
   display: inline-flex; }
 
 .icon-block {
-  display: block; }
+  display: block;
+  color: #2c3e50; }
 
 .icon-block i {
   font-style: inherent; }

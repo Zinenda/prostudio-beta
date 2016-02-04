@@ -7,11 +7,12 @@ permalink: /Galeria/
     <section class="row">
         <section class="col s12 l4 card hoverable">
             <div class="card-image">
-                <img src="{{ site.img_dir }}/galery/b.jpg" alt="imagem de capa" class="responsive-img">
-            </div>
-            <div class="card-actions">
-                <a href=""></a>
+                <a href="#modal1" class="modal-trigger waves-effect waves-light">
+                    <img src="{{ site.img_dir }}/galery/b.jpg" alt="imagem de capa" class="responsive-img">
+                </a>
             </div>
         </section>
     </section>
+    
+    {% include modals.html %}
 </main>

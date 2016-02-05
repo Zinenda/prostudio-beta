@@ -71,6 +71,10 @@ img.center {
     min-height: 100%;
 }
 
+.parallax-container {
+    height: 100%;
+}
+
 @import 
     "../../bower_components/materialize/sass/materialize",
     "../animated",

@@ -54,6 +54,9 @@ img.center {
   width: 100%;
   min-height: 100%; }
 
+.parallax-container {
+  height: 100%; }
+
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important; }
 

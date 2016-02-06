@@ -75,6 +75,33 @@ img.center {
     height: 100%;
 }
 
+.collapsible {
+    .collapsible-header {
+        min-height: 90px;
+        padding-left: 72px;
+        position: relative;
+        
+        
+        img.circle {
+            position: absolute;
+            width: 45px;
+            height: 45px;
+            overflow: hidden;
+            left: 15px;
+            display: inline-block;
+            vertical-align: middle;     
+        }
+        
+        i.circle {
+        font-size: 18px;
+        line-height: 42px;
+        color: #fff;
+        background-color: #999;
+        text-align: center;
+      }
+    }
+}
+
 @import 
     "../../bower_components/materialize/sass/materialize",
     "../animated",

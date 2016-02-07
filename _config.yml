@@ -15,12 +15,13 @@ email:
 url:
 facebook:
 youtube:
+url: http://zinenda.github.io/prostudio
 
 # dev intel
 author:
     name: Ivo Zinenda
     email: izinenda@outlook.com
-    google: http://plus.google.com/IvoZinenda
+    google: https://plus.google.com/u/0/+IvoZinenda
     
 markdown: kramdown
 

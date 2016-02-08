@@ -102,6 +102,11 @@ img.center {
     }
 }
 
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
 @import 
     "../../bower_components/materialize/sass/materialize",
     "../animated",

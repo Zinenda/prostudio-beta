@@ -76,6 +76,10 @@ img.center {
     background-color: #999;
     text-align: center; }
 
+iframe {
+  max-width: 100%;
+  height: auto; }
+
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important; }
 

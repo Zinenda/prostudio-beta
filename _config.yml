@@ -15,7 +15,7 @@ email:
 url:
 facebook:
 youtube:
-url: http://zinenda.github.io/prostudio
+#url: http://zinenda.github.io/prostudio
 
 # dev intel
 author:
@@ -29,3 +29,9 @@ markdown: kramdown
 img_dir: /assets/img
 css_dir: /assets/css
 js_dir: /assets/js
+sass:
+    sass_dir: assets/_sass
+    style: compressed
+
+language_data: data.lang.%%
+language_includes_dir: _i18n

@@ -1,9 +1,12 @@
+---
+---
+
 @charset "utf-8";
 
-$primary-color: #2c3e50 !default;
+$primary-color: #FFCA28 !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
-$link-color: color("light-blue", "darken-1") !default;
+$link-color: #FF5722 !default;
 
 body {
     min-height: 100vh;
@@ -36,7 +39,7 @@ h6 {
 }
 
 nav.nav-wrapper {
-    background: transparent;
+    opacity: .5;
 }
 
 a {
@@ -102,13 +105,8 @@ img.center {
     }
 }
 
-iframe {
-    max-width: 100%;
-    height: auto;
-}
-
 @import 
-    "../../bower_components/materialize/sass/materialize",
-    "../animated",
-    "../../bower_components/font-awesome/scss/font-awesome"
+    "materialize",
+    "animate",
+    "font-awesome"
 ;

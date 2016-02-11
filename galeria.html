@@ -4,16 +4,21 @@ title: Galeria
 permalink: /galeria/
 ---
 
-<div id="galeria">
-    <nav class="nav-wrapper">
-        <a href="{{ site.url }}/" class="brand-logo right">{{ site.name }}</a>
-        <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="fa fa-lg fa-navicon">MENU</i></a>
+<div>
+    <div class="navbar-fixed">
+        <nav class="nav-wrapper">
+            <a href="#home" class="brand-logo right">{{ site.name }}</a>
+            <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="fa fa-lg fa-navicon">MENU</i></a>  
+        </nav>
+    </div>
+
+    <div class="container">
         <ul id="slide-out" class="side-nav">
             <li>
                 <a href="{{ site.url }}/">PROstudio</a>
             </li>
             <li>
-                <a href="{{ site.url }}/galeria" title="Galeria">Galeria</a>
+                <a href="{{ site.url }}/galeria/" title="Galeria">Galeria</a>
             </li>
             <li>
                 <a href="{{ site.url }}/#servicos" title="Serviços">Serviços</a>
@@ -22,7 +27,7 @@ permalink: /galeria/
                 <a href="{{ site.url }}/#sobre" title="Quem Somos">Quem Somos</a>
             </li>
         </ul>
-    </nav>
+    </div>
     
     <main class="container">
         {% include galeria-imagens.html %}

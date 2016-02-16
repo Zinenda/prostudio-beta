@@ -4,31 +4,40 @@ title: Galeria
 permalink: /galeria/
 ---
 
-<div>
-    <div class="navbar-fixed">
-        <nav class="nav-wrapper">
-            <a href="{{ site.url }}/" class="brand-logo right">{{ site.name }}</a>
-            <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="fa fa-lg fa-navicon">MENU</i></a>  
-        </nav>
-    </div>
-
-    <div class="container">
-        <ul id="slide-out" class="side-nav">
+<nav>
+    <div class="nav-wrapper container">
+        <a href="{{ site.github.url }}/" class="brand-logo">
+            <b>PRO</b><em>STUDIO</em>
+        </a>
+        <a href="#" data-activates="side-nav" class="button-collapse"><i class="fa fa-navicon"></i></a>
+        <ul class="right hide-on-med-and-down">
             <li>
-                <a href="{{ site.url }}/">PROstudio</a>
+                <a href="{{ site.github.url }}/galeria/" title="Galeria">Galeria</a>
             </li>
             <li>
-                <a href="{{ site.url }}/galeria/" title="Galeria">Galeria</a>
+                <a href="{{ site.github.url }}/#servicos" title="Serviços">Serviços</a>
             </li>
             <li>
-                <a href="{{ site.url }}/#servicos" title="Serviços">Serviços</a>
+                <a href="{{ site.github.url }}/#sobre" title="Quem Somos">Quem Somos</a>
+            </li>
+        </ul>
+        
+        <ul id="side-nav" class="side-nav">
+            <li class="active">
+                <img src="{{ site.github.url }}/assets/img/brand/logotipo.jpg" alt="Logotipo" class="responsive-img">
             </li>
             <li>
-                <a href="{{ site.url }}/#sobre" title="Quem Somos">Quem Somos</a>
+                <a href="{{ site.github.url }}/galeria/" title="Galeria">Galeria</a>
+            </li>
+            <li>
+                <a href="{{ site.github.url }}/#servicos" title="Serviços">Serviços</a>
+            </li>
+            <li>
+                <a href="{{ site.github.url }}/#sobre" title="Quem Somos">Quem Somos</a>
             </li>
         </ul>
     </div>
-    
+</nav>    
     <main class="container">
         {% include galeria-imagens.html %}
         {% include galeria-videos.html %}

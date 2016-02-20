@@ -5,7 +5,7 @@
     <meta http-equiv="content-language" content="pt">
     
     <meta name="keywords" content="{{ site.keywords }}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ site.github.url }}/assets/img/brand/logo.jpg"/>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.github.url | prepend: site.url }}/assets/img/brand/logo.jpg"/>
     <meta name="theme-color" content="#2c3e50">
     {% seo %}
     <meta name="reply-to" content="{{ site.author.email }}">
@@ -13,6 +13,6 @@
     <link rel="author" href="{{ site.author.google }}">
     <link rel="publisher" href="{{ site.github.url }}">
     
-    <link rel="stylesheet" href="{{ site.github.url }}{{ site.css_dir }}/main.css" media="screen">
+    <link rel="stylesheet" href="{{ site.github.url | prepend: site.url }}{{ site.css_dir }}/main.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic' rel='stylesheet'>
 </head>

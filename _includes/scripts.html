@@ -2,3 +2,15 @@
 <script src="{{ site.github.url | prepend: site.url  }}{{ site.js_dir }}/materialize.min.js"></script>
 <script src="{{ site.github.url | prepend: site.url  }}{{ site.js_dir }}/main.js"></script>
 <script src="{{ site.github.url | prepend: site.url  }}{{ site.js_dir }}/pagify.js"></script>
+
+<script>
+    /* Open when someone clicks on the span element */
+function openSlider() {
+    document.getElementById("galeria-imagem").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeSlider() {
+    document.getElementById("galeria-imagem").style.width = "0%";
+}
+</script>

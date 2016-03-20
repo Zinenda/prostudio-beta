@@ -2,7 +2,6 @@
   $(function(){
 
     $('.button-collapse').sideNav();
-    $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
     $('.slider').slider();
     $('.materialboxed').materialbox();

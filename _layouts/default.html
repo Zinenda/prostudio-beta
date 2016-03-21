@@ -2,9 +2,12 @@
 <html dir="ltr" lang="pt" manifest="/main.manifest">
     {% include head.html %}
     <body id="page-top" class="scrollspy">
+        {% include navbar.html %}
+        {% include modals.html %}
         <main>
             {{ content }}
         </main>
+        {% include footer.html %}
         {% include scripts.html %}
     </body>
 </html>

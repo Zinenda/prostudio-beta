@@ -1,34 +1,56 @@
-<nav class="transparent black-text">
+<nav class="transparent">
     <div class="nav-wrapper container">
-        <a href="{{ site.github.url | prepend: site.url  }}" class="brand-logo">
-            <b>PRO</b><em>STUDIO</em>
+        <a href="{{ site.github.url | prepend: site.url  }}" class="brand-logo center">
+            <b>PRO</b>STUDIO
         </a>
-        <a href="#" data-activates="side-nav" class="button-collapse"><i class="fa fa-navicon"></i></a>
+        
+        <a href="#" class="button-collapse show-on-large" onclick="openNav()"><i class="fa fa-navicon"></i></a>
+        
         <ul class="right hide-on-med-and-down">
             <li>
-                <a href="{{ site.github.url | prepend: site.url  }}/galeria/" title="Galeria">Galeria</a>
+                <a href="http://facebook.com/{{ site.facebook }}" title="Facebook"><i class="fa fa-facebook"></i></a>
             </li>
             <li>
-                <a href="#servicos" title="Serviços">Serviços</a>
+                <a href="http://youtube.com/{{ site.youtube }}" title="Youtube"><i class="fa fa-youtube"></i></a>
             </li>
             <li>
-                <a href="#sobre" title="Quem Somos">Quem Somos</a>
+                <a href="http://instagram.com/{{ site.instagram }}" title="Instagram"><i class="fa fa-instagram"></i></a>
             </li>
         </ul>
         
-        <ul id="side-nav" class="side-nav">
-            <li>
-                <img src="{{ site.github.url | prepend: site.url  }}/assets/img/brand/logotipo.jpg" alt="Logotipo" class="responsive-img">
-            </li>
-            <li>
-                <a href="{{ site.github.url | prepend: site.url  }}/galeria/" title="Galeria">Galeria</a>
-            </li>
-            <li>
-                <a href="#servicos" title="Serviços">Serviços</a>
-            </li>
-            <li>
-                <a href="#sobre" title="Quem Somos">Quem Somos</a>
-            </li>
-        </ul>
+        <div id="side-nav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-lg fa-close"></i></a>
+            
+            <div class="overlay-content">
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card-panel hoverable">
+                            <div class="center"><i class="fa fa-tasks fa-5x"></i></div>
+                            <a href="#servicos" title="Serviços"><h4 class="light center">Serviços</h4></a>
+                        </div>
+                    </div>
+                    
+                    <div class="col s12">
+                        <div class="card-panel hoverable">
+                            <div class="center"><i class="fa fa-users fa-5x"></i></div>
+                            <a href="#sobre" title="Quem Somos"><h4 class="light center">Quem Somos</h4></a>
+                        </div>
+                    </div>
+                    
+                    <div class="col s12">
+                        <div class="card-panel hoverable">
+                            <div class="center"><i class="fa fa-envelope fa-5x"></i></div>
+                            <a href="#contactos" title="Contactos"><h4 class="light center">Contactos</h4></a>
+                        </div>
+                    </div>
+                    <div class="col s12">
+                        <div class="card-panel hoverable">
+                            <div class="center"><i class="fa fa-photo fa-5x"></i></div>
+                            <a href="#galeria" title="Galeria"><h4 class="light center">Galeria</h4></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </nav>

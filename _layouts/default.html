@@ -2,19 +2,9 @@
 <html dir="ltr" lang="pt" manifest="/main.manifest">
     {% include head.html %}
     <body id="page-top" class="scrollspy">
-        <script>
-            $('#page_holder').pagify({
-                pages: ['home', 'servicos', 'sobre'],
-                'default': 'home'
-            });
-        </script>
-        {% include root %}
-        <div id="page-holder">
-            
+        <main>
             {{ content }}
-        </div>
-        {% include fab-btn.html %}
-        {% include footer.html %}
+        </main>
         {% include scripts.html %}
     </body>
 </html>

@@ -12,10 +12,10 @@ title:
 description: Photograph like a PRO
 keywords: "Fotografias, Galaria, Serviços, Contactos, Quem Somos"
 email:
-facebook:
-youtube:
+facebook: PRO-studio-899720856809832
+youtube: channel/UCexlEfQRnWKdElPO_KnJjrA
 twitter:
-    username:
+    username: Imaz_3g
 url: http://zinenda.github.io/prostudio
 
 # dev intel
@@ -27,9 +27,6 @@ author:
 markdown: kramdown
 
 # directories
-img_dir: /assets/img
-css_dir: /assets/css
-js_dir: /assets/js
 sass:
     sass_dir: assets/_sass
     style: compressed

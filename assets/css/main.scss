@@ -44,6 +44,10 @@ h6 {
     text-transform: uppercase;
 }
 
+p {
+    text-align: justify;
+}
+
 nav.nav-wrapper {
     opacity: .5;
 }
@@ -113,6 +117,9 @@ img {
     color: $primary-color;
 }
 
+#contactos ul.inline-list li {
+    padding-left: 10px;
+}
 
 @import 
     "materialize",

@@ -11,7 +11,7 @@ function closeNav() {
 $( document ).ready(function(){
     $('.button-collapse').sideNav();
     $('.scrollspy').scrollSpy();
-    $('.slider').slider({full_width: true});
+    $('.slider').slider();
     $('.materialboxed').materialbox();
     $('.carousel').carousel();
     $('.modal-trigger').leanModal();

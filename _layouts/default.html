@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="pt" manifest="/main.manifest">
+<html dir="ltr" lang="pt" manifest="{{ site.github.url | prepend: site.url }}/manifest">
     {% include head.html %}
-    <body id="page-top" class="scrollspy">
+    <body id="page-top">
         {% include navbar.html %}
         {% include modals.html %}
         <main>

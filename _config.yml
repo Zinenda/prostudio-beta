@@ -17,6 +17,7 @@ youtube: channel/UCexlEfQRnWKdElPO_KnJjrA
 twitter:
     username: Imaz_3g
 url: http://zinenda.github.io/prostudio
+port: 5000
 
 # dev intel
 author:
